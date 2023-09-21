@@ -1,1 +1,46 @@
 /*  your css code here. If applicable */
+h1, .board{
+	font-family:Dancing Script
+}
+#root{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+#first{
+	display:flex;
+	flex-direction:column
+}
+#submit{
+	padding:20px;
+	border-radius:10px;
+}
+.message{
+	display:none;
+/* 	border:1px solid black; */
+	height:30px;
+	width:300px;
+	margin-bottom:20px;
+	justify-content:center;
+	align-items:center;
+/* 	font-weight:bold; */
+	font-family:Heebo
+}
+#second{
+	display:none;
+	grid-template-columns:100px 100px 100px;
+	justify-content:center;
+	align-items:center;
+}
+.board{
+	display:flex;
+	background-color:pink;
+	height:2em;
+	width:2em;
+	border:1px solid black;
+	font-size:50px;
+	justify-content:center;
+	align-items:center;
+	
+}
