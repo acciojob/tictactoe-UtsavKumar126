@@ -48,5 +48,5 @@ function checkWin() {
 	const div6=document.getElementById("6")
 	const div7=document.getElementById("7")
 	const div8=document.getElementById("8")
-	const div9=document.getElementById("9")		
+	const div9=document.getElementById("9")	
 }
