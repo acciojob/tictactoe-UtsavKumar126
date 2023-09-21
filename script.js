@@ -27,18 +27,26 @@ function mark(event) {
 	if(turn==true){
 		event.target.textContent="x";
 		if(checkWin())message.textContent=p1+",congratulations you won!";
-		message.textContent=p2+",you're up";
+		message.textContent=p2+", you're up";
 		turn=false;
 		//event.removeEventListener("click",(event)=>{});
 	}
 	else{
 		event.target.textContent="o";
 		if(checkWin())message.textContent=p1+",congratulations you won!";
-		message.textContent=p1+",you're up";
+		message.textContent=p1+", you're up";
 		turn=true;
 		//event.removeEventListener("click",(event)=>{});
 	}
 }
 function checkWin() {
-	
+	const div1=
+	const div2=
+	const div3=
+	const div4=
+	const div5=
+	const div6=
+	const div7=
+	const div8=
+	const div9=		
 }
