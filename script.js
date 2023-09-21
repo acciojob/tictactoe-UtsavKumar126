@@ -10,8 +10,8 @@ btn.addEventListener("click",()=>{
 	const second=document.getElementById("second");
 	second.style.display="grid";
 	message.style.display="flex";
-    p1=document.getElementById("player-1").value;
-    p2=document.getElementById("player-2").value;
+    p1=document.getElementById("player1").value;
+    p2=document.getElementById("player2").value;
 	message.textContent=p1+", you're up"
 })
 console.log(p1);
