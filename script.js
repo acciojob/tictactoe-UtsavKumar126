@@ -25,16 +25,18 @@ for(let i=0;i<box.length;i++){
 }
 function mark(event) {
 	if(turn==true){
-		event.target.textContent="X";
-		if(checkWin())message.textContent=p1+", congratulations you won!";
-		message.textContent=p2+", you're up";
+		event.target.textContent="x";
+		if(checkWin())message.textContent=p1+",congratulations you won!";
+		message.textContent=p2+",you're up";
 		turn=false;
+		//event.removeEventListener("click",(event)=>{});
 	}
 	else{
-		event.target.textContent="O";
-		if(checkWin())message.textContent=p1+", congratulations you won!";
-		message.textContent=p1+", you're up";
+		event.target.textContent="o";
+		if(checkWin())message.textContent=p1+",congratulations you won!";
+		message.textContent=p1+",you're up";
 		turn=true;
+		//event.removeEventListener("click",(event)=>{});
 	}
 }
 function checkWin() {
