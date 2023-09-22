@@ -27,7 +27,7 @@ function mark(event) {
 	if(turn==true){
 		event.target.textContent="x";
 		if(checkWin(true)){
-			message.textContent=p1+",congratulations you won!";
+			message.textContent=p1+" congratulations you won!";
 			return;
 		}
 		message.textContent=p2+", you're up";
@@ -37,7 +37,7 @@ function mark(event) {
 	else{
 		event.target.textContent="o";
 		if(checkWin(false)){
-			message.textContent=p2+",congratulations you won!";
+			message.textContent=p2+" congratulations you won!";
 			return;
 		}
 		message.textContent=p1+", you're up";
