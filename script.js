@@ -62,6 +62,8 @@ function checkWin(player) {
 		else if(div7.textContent=='x'&&div8.textContent=='x'&&div9.textContent=='x')return true;
 		else if(div1.textContent=='x'&&div5.textContent=='x'&&div9.textContent=='x')return true;
 		else if(div3.textContent=='x'&&div5.textContent=='x'&&div7.textContent=='x')return true;
+		else if(div4.textContent=='x'&&div5.textContent=='x'&&div6.textContent=='x')return true;
+		else if(div2.textContent=='x'&&div5.textContent=='x'&&div8.textContent=='x')return true;
 	}
 	else{
 		if(div1.textContent=='o'&&div2.textContent=='o'&&div3.textContent=='o')return true;
@@ -70,6 +72,8 @@ function checkWin(player) {
 		else if(div7.textContent=='o'&&div8.textContent=='o'&&div9.textContent=='o')return true;
 		else if(div1.textContent=='o'&&div5.textContent=='o'&&div9.textContent=='o')return true;
 		else if(div3.textContent=='o'&&div5.textContent=='o'&&div7.textContent=='o')return true;
+		else if(div4.textContent=='o'&&div5.textContent=='o'&&div6.textContent=='o')return true;
+		else if(div2.textContent=='o'&&div5.textContent=='o'&&div8.textContent=='o')return true;
 	}
 	return false;
 }
